@@ -1,0 +1,66 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#a)">
+        <mask id="b" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="0" width="28" height="35">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C8.268 0 2 7.835 2 17.5S8.268 35 16 35s14-7.835 14-17.5S23.732 0 16 0Zm0 7.639c-3.038 0-5.5 4.415-5.5 9.861 0 5.446 2.462 9.861 5.5 9.861s5.5-4.415 5.5-9.861c0-5.446-2.462-9.861-5.5-9.861Z" fill="#000" style="fill:#000;fill-opacity:1"/>
+        </mask>
+        <g mask="url(#b)">
+            <path transform="rotate(8.2 -19.188 -22.564)" d="M-19.188-22.564h220v220h-220z" fill="url(#lightMode1)"/>
+            <rect width="220" height="220" rx="45" transform="scale(1 -1) rotate(-8.199 -1526.394 245.13)" fill="url(#lightMode2)"/>
+            <rect width="220" height="220" rx="75" transform="scale(1 -1) rotate(-8.199 -1526.394 245.13)" fill="url(#lightMode3)"/>
+            <rect width="220" height="220" rx="110" transform="scale(1 -1) rotate(-8.199 -1526.394 245.13)" fill="url(#lightMode4)"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="a">
+            <path fill="#fff" style="fill:#fff;fill-opacity:1" d="M0 0h32v32H0z"/>
+        </clipPath>
+        <linearGradient id="lightMode1" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#000000"/>
+            <stop offset="1" stop-color="#171717"/>
+        </linearGradient>
+        <linearGradient id="lightMode2" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#171717"/>
+            <stop offset="1" stop-color="#3a3a3a"/>
+        </linearGradient>
+        <linearGradient id="lightMode3" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3a3a3a"/>
+            <stop offset="1" stop-color="#5c5f60"/>
+        </linearGradient>
+        <linearGradient id="lightMode4" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#5c5f60"/>
+            <stop offset="1" stop-color="#747878"/>
+        </linearGradient>
+        <linearGradient id="darkMode1" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6b7075"/>
+            <stop offset="1" stop-color="#8a8e92"/>
+        </linearGradient>
+        <linearGradient id="darkMode2" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#a7acb1"/>
+            <stop offset="1" stop-color="#c3c7cb"/>
+        </linearGradient>
+        <linearGradient id="darkMode3" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#d4d7da"/>
+            <stop offset="1" stop-color="#e0e3e5"/>
+        </linearGradient>
+        <linearGradient id="darkMode4" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#e8eaed"/>
+            <stop offset="1" stop-color="#ffffff"/>
+        </linearGradient>
+    </defs>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            path, rect {
+                fill: url(#darkMode1);
+            }
+            rect:nth-of-type(1) {
+                fill: url(#darkMode2);
+            }
+            rect:nth-of-type(2) {
+                fill: url(#darkMode3);
+            }
+            rect:nth-of-type(3) {
+                fill: url(#darkMode4);
+            }
+        }
+    </style>
+</svg>

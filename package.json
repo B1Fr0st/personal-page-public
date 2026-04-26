@@ -1,0 +1,30 @@
+{
+  "name": "personal-page",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "generate:posts": "bun run scripts/generate-posts.js",
+    "generate:book-covers": "bun run scripts/generate-book-covers.js",
+    "generate:track-art": "bun run scripts/generate-track-art.js",
+    "generate": "bun run generate:posts && bun run generate:book-covers && bun run generate:track-art",
+    "predev": "bun run generate",
+    "prebuild": "bun run generate",
+    "dev": "bun --hot src/server.jsx",
+    "author": "bun --hot authoring/server.jsx",
+    "build": "bun run build.js",
+    "start": "NODE_ENV=production bun src/server.jsx",
+    "publish:public": "bun run scripts/publish-public.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "shiki": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}
